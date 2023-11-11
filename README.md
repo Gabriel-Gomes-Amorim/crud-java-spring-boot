@@ -51,5 +51,7 @@ Para visualizar a documentação da api acesse:
 
 ```bash
    http://localhost:8080/swagger-ui/index.html
-
+```
 Você irá visualizar user-controller com os endpoints da api
+
+
