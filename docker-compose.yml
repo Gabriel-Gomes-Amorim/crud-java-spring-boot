@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: db-postgress
+    environment:
+      POSTGRES_DB: crud_spring_boot
+      POSTGRES_USER: spring
+      POSTGRES_PASSWORD: spring-boot
+    ports:
+      - "5432:5432"
+    networks:
+      - postgres-network
+
+networks:
+  postgres-network:
+    driver: bridge
