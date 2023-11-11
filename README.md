@@ -36,7 +36,7 @@ Certifique-se de ter as seguintes ferramentas instaladas em seu sistema:
 
 1. Clone este repositório em seu computador
 
-2. Configure as propriedades do banco de daods no arquivo application.properties
+2. Configure as propriedades do banco de dados no arquivo application.properties
 
 3. execute o contâiner do postgres
 
